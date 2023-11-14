@@ -1,0 +1,115 @@
+.main-box{
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 5px 5px;
+    filter: drop-shadow(10px);
+}
+.upper-box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    position: absolute;
+    left: 45%;
+    top: 7%;
+    border: 2px solid;
+    border-color: white;
+    cursor: pointer;
+}
+.main-box .upper-box{
+    background-color: blue;
+    width:auto;
+    height: 30%;
+    border-radius: 20px;
+}
+.main-box .lower-box{
+    background-color: aliceblue;
+    width: auto;
+    height: 70%;
+    border-radius: 20px;
+}
+.lower-box h1{
+    position: relative;
+    text-align: center;
+    top: 10%;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lower-box p{
+    position: relative;
+    text-align: center;
+    top: 10%;
+    font-weight: bold;
+    color: rgba(109, 110, 112, 0.87);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logos{
+    position: relative;
+    top: 20%;
+    left: 25%;
+
+}
+.logos img{
+    display:inline-block;
+    margin: 5px;
+    transition: 0.2s ease;  
+}
+.logos img:hover{
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+}
+.logos img:hover::after{
+    
+    transform: scale(1.0);
+}
+.buttons {
+    display: flex;
+    top: 25%;
+    position: relative;
+    text-align: center;
+}
+.buttons button{
+    display: inline-block;
+    position: relative;
+    left: 13%;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    border: 1px solid darkblue;
+    margin-right: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s ;
+}
+.buttons button:hover{
+    opacity: calc(0.8);
+    transform: scale(1.2);
+    
+}
+.lower-box .container{
+    position: relative;
+    top: 37%;
+    left: 40%;
+    display: inline-flex;
+}
+.lower-box .container .bar{
+    border-right: 2px solid grey;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.lower-box .container .invis{
+    padding-right: 6px;
+}
+.lower-box .container .icon{
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.lower-box .container .icon:hover{
+    transform: scale(1.2);
+    text-rendering: auto;
+}
